@@ -194,9 +194,3 @@ In this project, we showed the capabilites of CycleGAN approach for image to pai
 - [9] U-Net: O. Ronneberger, P. Fischer, and T. Brox, "U-Net: Convolutional Networks for Biomedical Image Segmentation," in Medical Image Computing and Computer-Assisted Intervention (MICCAI), pp. 234-241, 2015.
 - [10] Kingma, Diederik P., and Jimmy Ba. "Adam: A method for stochastic optimization." arXiv preprint arXiv:1412.6980 (2014).
 - [11] Taigman, Yaniv, Adam Polyak, and Lior Wolf. "Unsupervised cross-domain image generation." arXiv preprint arXiv:1611.02200 (2016).
-
-## 8. Contributions
-- Diwakar V. Singh: Implementation of whole CycleGAN pipeline using TensorFlow API in Google Colab; Model training on 2 different datasets: Monet and Cezanne; Model training for different generative architectures and padding types; Final results generation; Supervising and reporting of all the experiments.
-- Bethany Tate: Model training with default generator configuration and different architecture for discriminator network; Building and configuration of Github Page; Report writing and editing.
-- Saeed Rashidi: Model training with default configuration on Ukiyoe and Van Gogh datasets; Model training with symmetric padding for Resnet generator; Model training with Binary Cross-Entropy for adversarial loss; Report writing for loss function and conclusion sections.
-- Decheng Yan: WWeekly meeting, discussion of project schedule and idea; Architecture comparison of generator network (U-Net/ ResNet, Batch-Normalization/ Instance-Normalization); Model training to each generator network type; Review of the report.
